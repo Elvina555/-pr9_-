@@ -1,0 +1,17 @@
+fun main()
+{
+    var trip=Trip(0, "",0, 0.0,0.0)
+    trip.SetInfo()
+    trip.GetInfo()
+    trip.Time()
+    var vidgryz=VidGryz("", 0.0, 0,"",0,0.0,0.0)
+    println("Грузовой вагон")
+    vidgryz.SetInfo()
+    vidgryz.GetInfo()
+    vidgryz.Vagon()
+    vidgryz.Zen()
+    var vidpass=VidPass(0,0,0,"",0,0.0,0.0)
+    vidpass.SetInfo()
+    vidpass.GetInfo()
+    vidpass.Mesta()
+}
